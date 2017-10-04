@@ -2,11 +2,9 @@
 
 #include "Python.h"
 #include <locale.h>
-
 #ifdef __FreeBSD__
 #include <fenv.h>
 #endif
-
 #ifdef MS_WINDOWS
 int
 wmain(int argc, wchar_t **argv)
