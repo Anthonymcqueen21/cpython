@@ -2,7 +2,6 @@
 
 #include "Python.h"
 #include <locale.h>
-
 #ifdef __FreeBSD__
 #include <fenv.h>
 #endif
