@@ -6,7 +6,6 @@
 import os
 import sys
 
-
 try:
     from importlib.machinery import SourceFileLoader
 except ImportError:
